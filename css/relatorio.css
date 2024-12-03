@@ -1,0 +1,60 @@
+/* Estilização da tabela do relatório */
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #e4b430;
+    border-radius: 10px; /* Ajuste o valor conforme necessário */
+    overflow: hidden; /* Para garantir que o arredondamento funcione */
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+th {
+    background-color: #e4b430;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:hover {
+    background-color: #dddddd;
+}
+
+/* Estilização do botão de voltar */
+
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: #e4b430;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4a020;
+}
+
+/* Estilização do título */
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilização do título da tabela */
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}

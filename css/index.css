@@ -1,0 +1,37 @@
+@import url(cadastro.css);
+@import url(menu.css);
+@import url(relatorio.css);
+
+* {
+    font-family: 'Monsserat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.resultado_prod, .resultado_serv, .resultado_sumprod {
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    margin: 15px;
+    text-align: center;
+}
+
+.resultado_prod .valor, .resultado_serv .valor, .resultado_sumprod .valor {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}

@@ -1,0 +1,4 @@
+# Redirecionar todas as requisições para a pasta /oficina/
+RewriteEngine On
+RewriteRule ^$ /oficina/ [L]
+RewriteRule (.*) /oficina/$1 [L]
